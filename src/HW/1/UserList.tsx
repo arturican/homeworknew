@@ -32,9 +32,8 @@ export const UserList = (props: UserListPropsType) => {
                 {
                     props.users.map(u=>{
                         return (
-                            <li key={u.id}>
-                                <strong>{u.name }</strong> Age: {u.age }
-                                <strong>Address:</strong>
+                            <li key={u.id} id={`hw01-user-${u.id}`}>
+                                <strong>{u.name }</strong> Age: {u.age }<strong>Address:</strong>
                                 {u.address.street }, {u.address.city }
                             </li>
                         )
