@@ -26,7 +26,7 @@ export const HW3 = () => {
     setCurrentText('')
   };
 
-  
+
 
   return (
     <div id={'hw03'}>
